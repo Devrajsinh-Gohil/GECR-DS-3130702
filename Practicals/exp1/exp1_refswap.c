@@ -1,4 +1,4 @@
-//C Program for Swapping of number using call by address
+//C Program for Swapping: call by address
 #include <stdio.h>
 void swap(int*n1,int*n2)
 {

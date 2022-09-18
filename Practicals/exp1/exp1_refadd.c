@@ -1,4 +1,4 @@
-//C Program for Addition of two numbers using call by address
+//C Program for Addition: call by address
 #include <stdio.h>
 int add(int *n1,int *n2)
 {

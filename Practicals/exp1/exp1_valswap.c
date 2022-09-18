@@ -1,4 +1,4 @@
-//C Program for Swapping of numbers using call by value
+//C Program for Swapping: call by value
 
 #include <stdio.h>
 

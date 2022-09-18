@@ -1,4 +1,4 @@
-//C Program for Addition of two numbers using call by value
+//C Program for Addition: call by value
 #include <stdio.h>
 int add(int n1, int n2)
 {
