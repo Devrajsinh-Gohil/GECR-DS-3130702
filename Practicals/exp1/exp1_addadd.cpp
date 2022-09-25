@@ -10,7 +10,6 @@ void add(int &n1,int &n2)
 int main()
 {
     int a,b;
-    void add(int&,int&);
     printf("enter a = ");
     scanf("%d",&a);
     printf("enter b = ");
