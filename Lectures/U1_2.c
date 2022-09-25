@@ -27,6 +27,7 @@ int main()
         V[i] = tmp;
     }
 
+    // Step !.
     int SUM = 0;
     for (int I = 0; I < N; I++)
     {
@@ -35,5 +36,6 @@ int main()
     
     printf("Sum = %d\n",SUM);
 
+    // Step 2.
     return 0;
 }

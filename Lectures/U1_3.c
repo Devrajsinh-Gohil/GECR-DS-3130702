@@ -46,6 +46,7 @@ int main()
         }
     }
 
+    // Step 1.
     for(int I = 0; I < N; I++)
     {
         for(int J = 0; J < N; J++)
@@ -68,4 +69,7 @@ int main()
         }
         printf("\n");
     }
+
+    // Step 2.
+    return 0;
 }
