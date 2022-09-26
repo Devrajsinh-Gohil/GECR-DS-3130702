@@ -56,7 +56,7 @@ int main()
             int SUM = 0;
             for(int K = 0; K < N; K++)
             {
-                SUM = SUM + (A[I][J] * B[I][K]);
+                SUM = SUM + (A[I][K] * B[K][J]);
             }
             C[I][J] = SUM;
         }
