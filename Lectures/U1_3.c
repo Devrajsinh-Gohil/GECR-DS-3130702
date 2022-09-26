@@ -27,7 +27,7 @@ int main()
     int A[N][N], B[N][N], C[N][N];
 
     printf("Enter values for Matrix A:\n");
-    for(int I; I < N; I++)
+    for(int I = 0; I < N; I++)
     {
         for(int J = 0; J < N; J++)
         {
@@ -38,7 +38,7 @@ int main()
     }
 
     printf("Enter values for Matrix B:\n");
-    for(int I; I < N; I++)
+    for(int I = 0; I < N; I++)
     {
         for(int J = 0; J < N; J++)
         {
@@ -63,7 +63,7 @@ int main()
     }
 
     printf("\nMultipliction: \n");
-    for(int I; I < N; I++)
+    for(int I = 0; I < N; I++)
     {
         for(int J = 0; J < N; J++)
         {
