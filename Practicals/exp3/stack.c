@@ -54,13 +54,10 @@ void CHANGE(int S[], int *TOP, int I, int X)
 int main()
 {
     char stop;
-    int N, key = 1;
+    int N, option, I, TOP = 0, X = 0, key = 1;
     printf("Enter the size for Stack: ");
     scanf("%d", &N);
-    int X = 0;
-    int S[N], TOP;
-    TOP = 0;
-    int option, I;
+    int S[N];
     while (key)
     {
         printf("1. PUSH  2. POP  3. PEEP 4. CHANGE 5. EXIT\n");
